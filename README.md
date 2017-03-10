@@ -15,11 +15,11 @@ The challenge this time is to interact with an oAuth endpoint and do animations!
 Minimum Requirement:
 * Oauth Login/Flow for Facebook
 * Visual Representation of the last Posts (e.g. flying in via CSS3 animations)
-* Save the Posts in a local Database.
+* Save and browse the Posts in a local Database.
 
 Bonus:
-* Share-Funktion: Generate a unique URL for sharing a Post to other users.
-* Comment on Posts locally: After clicking a Post a comment should be possible. Of course you'd have to save IP/UserAgent/...
+* Share-Function: Generate a unique URL for sharing a Post to other users.
+* Comment on Posts locally: After clicking a Post a comment box should appear and commenting should be possible. Of course you'd have to save IP/UserAgent/...
 * List of all stored Posts/Comments
 
 
