@@ -1,4 +1,4 @@
-# Craft-IT Coding Challenge "Flying Tweets"
+# Craft-IT Coding Challenge "Flying Posts"
 
 _Weekend, Mar 10 to Mar 12 2017_
 
