@@ -1,0 +1,29 @@
+{
+  "name": "wolfi/cc2017-03",
+  "description": "My try",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Wolfi\\CC\\": "src/Wolfi/CC/"
+    }
+  },
+  "require": {
+    "pimple/pimple": "^3.0",
+    "symfony/http-kernel": "^3.2",
+    "symfony/http-foundation": "^3.2",
+    "symfony/event-dispatcher": "^3.2",
+    "league/plates": "^3.3",
+    "symfony/routing": "^3.2",
+    "facebook/graph-sdk": "^5.4",
+    "ramsey/uuid": "^3.5"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^3.2"
+  },
+  "authors": [
+    {
+      "name": "Wolfi",
+      "email": "herka_wo@gmx.at"
+    }
+  ]
+}

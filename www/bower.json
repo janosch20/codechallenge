@@ -1,0 +1,25 @@
+{
+  "name": "Wolfi/cc2017-03",
+  "homepage": "https://github.com/tomw1808/cc2017-03",
+  "description": "",
+  "main": "index.php",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "Wolfi"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.1",
+    "bootstrap": "~3.3.7"
+  }
+}
