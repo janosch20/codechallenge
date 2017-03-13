@@ -73,6 +73,8 @@ $pimple['routes'] = function ($pimple) {
             '/post/{fbPostId}',
             [
                 '_controller' => 'Wolfi\\CC\\Controller\\PostController::postAction',
+                'session' => $pimple['session'],
+                'facebook' => $pimple['facebook'],
                 'dbHelper' => $pimple['dbHelper'],
                 'engine' => $pimple['template'],
             ]

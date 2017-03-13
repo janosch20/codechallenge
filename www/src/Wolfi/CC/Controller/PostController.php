@@ -13,10 +13,15 @@ class PostController
 {
     public function postAction(
         Request $request,
+        Session $session,
+        Facebook $facebook,
         $fbPostId,
         DbHelper $dbHelper,
         Engine $engine
     ) {
+        $accessToken = $session->get('fb_access_token');
+        $user = $facebook->get('me', $accessToken)->getGraphUser();
+
         $post = $dbHelper->getPostByFbPostId($fbPostId);
 
         if ($request->get('inputComment')) {
@@ -65,6 +70,6 @@ class PostController
             'post' => $post,
             'comments' => $comments
         ];
-        return new Response($engine->render('content/post', $data));
+        return new Response($engine->render('content/public_post', $data));
     }
 }
